@@ -274,11 +274,11 @@ nav ul li a:hover {
 }
 
 /* For Tablet View */
-@media screen and (max-device-width: 1024px) {
+@media screen and (max-width: 1024px) {
 }
 
 /* For Mobile Landscape View */
-@media screen and (max-device-width: 768px) {
+@media screen and (max-width: 768px) {
   nav {
     background: #ecd2a1;
   }
@@ -334,10 +334,25 @@ nav ul li a:hover {
 
   .media-info li {
     list-style: none;
-    font-size: 0.7em;
+    font-size: 0.9em;
   }
 }
 
 /* For Mobile Portrait View */
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
+  .media-info {
+    width: 50%;
+    margin-left: 0px;
+    margin-right: 50px;
+  }
+
+  .media-info li:nth-child(1),
+  .media-info li:nth-child(4) {
+    padding-left: 20%;
+  }
+
+  .media-info li:nth-child(2),
+  .media-info li:nth-child(3) {
+    padding-left: 10%;
+  }
 }
