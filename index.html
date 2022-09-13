@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <script src="https://use.fontawesome.com/58d97ce13b.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navbar-link">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#aboutMe">About Me</a></li>
+          <li class="link"><a href="#portfolio">Portfolio</a></li>
+          <li class="link"><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="toggle-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </nav>
+    </header>
+    <section id="home" class="home">
+      <div>
+        <h1>I'm <br />Chelsa Farah Virkhansa</h1>
+        <h4>Web Developer</h4>
+      </div>
+      <div>
+        <img class="profile" src="assets/images/profile.png" alt="" />
+      </div>
+    </section>
+    <section id="aboutMe" class="about_me reveal">
+      <h1>About Me</h1>
+      <p>
+        I am graduated in Informatics Engineering from Brawijaya University. I have two years experience as web developer. I have some knowledge for both front-end and back-end development. In the side, I have done some projects using
+        frameworks such as Codeigniter. Recently I've been learn on Reactjs and golang. I am having a high professionalism and commitment, and willing to learn something new. Be responsible to accomplish any task that I undertake and
+        excellent working in team and indvidual to achieve the goals.
+      </p>
+    </section>
+    <section id="portfolio" class="flex reveal">
+      <h1 class="title-section">Portfolio</h1>
+      <div class="list">
+        <div class="card">
+          <div class="slide-container">
+            <img class="slides slide1" src="assets/images/sppd.jpg" />
+            <img class="slides slide1" src="assets/images/sppd2.jpg" />
+            <img class="slides slide1" src="assets/images/sppd3.jpg" />
+            <div>
+              <div class="prev-arrow" onclick="plusDivs(-1,0)">&#10094;</div>
+              <div class="next-arrow" onclick="plusDivs(1,0)">&#10095;</div>
+              <div class="container-badge">
+                <span class="dots dot-white badge" onclick="currentDiv(1,0)"></span>
+                <span class="dots dot-white badge" onclick="currentDiv(2,0)"></span>
+                <span class="dots dot-white badge" onclick="currentDiv(3,0)"></span>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <h1>SPPD Online</h1>
+            <p>Web-based application to perform the process of scheduling work assignments for each employee.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="slide-container">
+            <img class="slides slide2" src="assets/images/sorjan.jpg" />
+            <img class="slides slide2" src="assets/images/sorjan2.jpg" />
+            <div>
+              <div class="prev-arrow" onclick="plusDivs(-1,1)">&#10094;</div>
+              <div class="next-arrow" onclick="plusDivs(1,1)">&#10095;</div>
+              <div class="container-badge">
+                <span class="dots dot-white badge" onclick="currentDiv(1,1)"></span>
+                <span class="dots dot-white badge" onclick="currentDiv(2,1)"></span>
+                <span class="dots dot-white badge" onclick="currentDiv(3,1)"></span>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <h1>SORJAN</h1>
+            <p>Sorjan aims to facilitate regional apparatus, village governments and partners in conducting supervision consultations to the inspektorat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact reveal">
+      <h3 class="title-section">Contact</h3>
+      <div class="container">
+        <div class="content">
+          <div class="media-info">
+            <li>
+              <a href="http://www.linkedin.com/in/chelsafv"><i class="fa fa-linkedin"></i> Linkedin</a>
+            </li>
+            <li>
+              <a href="http://www.github.com/chelsafarah"><i class="fa fa-github"></i> Github</a>
+            </li>
+            <li>
+              <a href="http://www.instagram.com/chelsafv"><i class="fa fa-instagram"></i> Instagram</a>
+            </li>
+            <li>
+              <a href="http://wa.me/6285728920525"><i class="fa fa-whatsapp"></i> WhatsApp</a>
+            </li>
+          </div>
+          <div class="image"><img src="assets/images/programming.jpg" alt="" /></div>
+        </div>
+      </div>
+    </section>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
