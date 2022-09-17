@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: #79a8e6;
+  /* background: #79a8e6; */
 }
 
 section {
@@ -227,7 +227,7 @@ nav ul li a:hover {
 }
 
 .media-info li a {
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -354,5 +354,9 @@ nav ul li a:hover {
   .media-info li:nth-child(2),
   .media-info li:nth-child(3) {
     padding-left: 10%;
+  }
+
+  .media-info span {
+    display: none !important;
   }
 }
