@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  /* background: #79a8e6; */
+  background: rgb(193 127 42 / 75%);
 }
 
 section {
@@ -340,6 +340,11 @@ nav ul li a:hover {
 
 /* For Mobile Portrait View */
 @media screen and (max-width: 480px) {
+  .image {
+    width: 85%;
+    margin-left: -70px;
+  }
+
   .media-info {
     width: 50%;
     margin-left: 0px;
